@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class BoardGame extends JPanel {
+    Matrix matrix = new Matrix();
     public BoardGame(){
         setBackground(Color.BLACK); //Fondo de la pantalla
     }
