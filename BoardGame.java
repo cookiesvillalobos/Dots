@@ -13,10 +13,13 @@ public class BoardGame extends JPanel {
      * @param g lo que se va a dibujar
      */
     public void paintComponent (Graphics g){
-        super.paintComponent(g);
+        g.setColor(Color.BLACK);
+        g.fillRect(1,1,692,592);
+
         Graphics2D g2  = (Graphics2D) g;
-        g2.setColor(Color.WHITE);
-        board1(g2);
+        g2.setColor(Color.YELLOW);
+        matrix.board1(g2);
+
 
     }
 
