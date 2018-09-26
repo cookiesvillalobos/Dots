@@ -2,6 +2,9 @@ package Clases;
 
 import javax.swing.*;
 
+/**
+ * Clase que dibuja la ventana y tiene una instancia del cuadro de juego
+ */
 public class Window extends JFrame {
     private final int WIDTH = 700, HEIGH = 600; //Dimensiones de la pantalla
     private BoardGame sheet;
@@ -16,8 +19,8 @@ public class Window extends JFrame {
 
 
 
+
     }
 
 
 }
-
