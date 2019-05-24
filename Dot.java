@@ -1,6 +1,4 @@
-package Clases;
 
-import java.awt.*;
 
 /**
  * Clase que representa el punto dentro del juego
